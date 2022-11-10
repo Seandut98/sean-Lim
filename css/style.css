@@ -1,9 +1,6 @@
 #demotext{
     font-size: 90px;
   } 
- 
-
-
 
 body{
     background-color:burlywood;
@@ -20,6 +17,19 @@ body{
   width: 90%;
   height: auto;
 }
+
+
+.flex-item{
+  width:200px;
+  height:200px;
+  
+}
+
+
+
+
+
+
 
 
 
