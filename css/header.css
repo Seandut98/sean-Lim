@@ -1,102 +1,74 @@
-body {background-image:url(seanimages/seanlim.jpg);
-r  ;}
-
-.container {
-    width: 1023px;
-    margin-left: auto;
-    margin-right: auto;
-
+body {
+  background-image: url(../seanimages/seanlim.jpg);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  margin: auto;
+  padding: auto;
 }
 
-
-
 header {
-    height: 100px;
-    width: 1000px;
-    text-align: center;
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+}
+
+.logo {
+  padding: auto;
+  margin: 10px 10px 10px;
+  text-align: center;
 }
 
 .logo img {
-    width: 250px;
-    height: 250px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px 10px 10px;
 }
 
 nav {
-    height: 53px;
-    width: 1000px;
-    text-align: center;
-    <button style="margin:5px;">Button 1</button> 
-<button style="margin:5px;">Button 2</button> 
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }
 
 main {
-    height: 840px;
-    width: 1000px;
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }
 
-footer {text-align: center;
-    background-color: rgba(0, 0, 0, 0.477);
-    height: 103px;
-
-padding-right: 130px;
-}
-
-h1 { 
-    font-size: 34px;
-    color: antiquewhite;
-    text-align: center;
+h1 {
+  font-size: 34px;
+  color: antiquewhite;
+  text-align: center;
 }
 
 p {
-    font-size: 24px;
-    color: rgb(246, 243, 239);
-    text-align: center;
-}
-a{font-size: 18px;
-    color: rgb(237, 241, 245);}
-    button a{color: black;
-    text-decoration: none;}
-    nav a{padding-top: 14px;
-    padding-left: 10px;
-    padding-right:10px;
+  font-size: 24px;
+  color: rgb(246, 243, 239);
+  text-align: center;
 }
 
-* {
-	box-sizing: border-box;
+a {
+  font-size: 18px;
+  color: rgb(237, 241, 245);
 }
 
-body {
-	padding: 0;
-	margin: 0;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-}
-
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	padding: 0;
-	margin: 0;
+nav a {
+  padding-top: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .flex-container {
   /* We first create a flex layout context */
   display: flex;
-  
+
   /* Then we define the flow direction 
      and if we allow the items to wrap 
    * Remember this is the same as:
@@ -104,26 +76,26 @@ body {
    * flex-wrap: wrap;
    */
   flex-flow: row wrap;
-  
+
   /* Then we define how ther remaining space is distributed. look at the documentation for different spacing options*/
 
   justify-content: flex-start;
-/*     justify-content: space-between; */
+  /*     justify-content: space-between; */
   /*   justify-content: space-around; */
-  
-/*   container margins */
+
+  /*   container margins */
   margin: 5px;
-  
+
   list-style: none;
 }
 
 .flex-item {
-/*   background: tomato; */
+  /*   background: tomato; */
 
   max-width: auto;
   max-height: 32vh;
-  
-/*   inner grid spacing */
+
+  /*   inner grid spacing */
   margin: 5px;
 
   object-fit: cover;
