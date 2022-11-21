@@ -1,2 +1,2 @@
 # sean-Lim
-my first website 
+website photos  
