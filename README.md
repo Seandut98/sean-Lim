@@ -1,2 +1,0 @@
-# sean-Lim
-website photos  
