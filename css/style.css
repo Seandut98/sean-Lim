@@ -1,4 +1,15 @@
-body{background-image: url(../images/seanlim.jpg);}
+body{
+  background-image: url(../images/seanlim.jpg);
+  
+  margin: auto;
+  padding: auto;
+}
+
+nav{
+  margin: auto;
+  text-align: center;
+  margin: auto;
+}
 .button {
     border: none;
     color: white;
@@ -91,4 +102,6 @@ body{background-image: url(../images/seanlim.jpg);}
     width: 50%;
   }
 
+
+  
   
