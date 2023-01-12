@@ -24,24 +24,24 @@ nav{
   }
   
   .button1 {
-    background-color: blue;
+    background-color: white;
     color: black;
-    border: 2px solid #008CBA;
+    border: 2px solid blue;
   }
   
   .button1:hover {
-    background-color: #008CBA;
+    background-color: white;
     color: blue;
   }
   
   .button2 {
-    background-color: blue;
+    background-color: white;
     color: black;
-    border: 2px solid #008CBA;
+    border: 2px solid blue;
   }
   
   .button2:hover {
-    background-color: #008CBA;
+    background-color: white;
     color: blue;
   }
 
